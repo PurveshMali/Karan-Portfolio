@@ -45,8 +45,8 @@ const Contact = () => {
         <h2>Let's Build Something That <span>Moves People.</span></h2>
         <a href="mailto:hello@karangade.com" className="btn btn-primary btn-large" ref={btnRef}>Start a Project</a>
         <div className="social-links">
-          <a href="#" className="social-link">Instagram</a>
-          <a href="#" className="social-link">YouTube</a>
+          <a href="https://www.instagram.com/thekarangade/" className="social-link">Instagram</a>
+          <a href="https://www.youtube.com/@Thekarangade" className="social-link">YouTube</a>
           <a href="#" className="social-link">LinkedIn</a>
         </div>
       </div>

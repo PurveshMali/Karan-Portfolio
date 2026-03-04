@@ -1083,6 +1083,14 @@ a {
     display: none;
     /* simple mobile menu hidden for now */
   }
+
+  body {
+    cursor: auto;
+  }
+
+  .custom-cursor {
+    display: none !important;
+  }
 }
 
 @media (max-width: 600px) {
