@@ -7,12 +7,12 @@ const Navbar = () => {
   // Magnetic Button Logic for the Contact button
   useEffect(() => {
     const btn = btnRef.current;
-    
+
     const onMouseMove = (e) => {
       const position = btn.getBoundingClientRect();
       const x = e.clientX - position.left - position.width / 2;
       const y = e.clientY - position.top - position.height / 2;
-      
+
       gsap.to(btn, {
         x: x * 0.3,
         y: y * 0.3,
@@ -45,6 +45,8 @@ const Navbar = () => {
       <div className="nav-links">
         <a href="#work">Work</a>
         <a href="#expertise">Expertise</a>
+        <a href="#blog">Blog</a>
+        <a href="#community">Community</a>
         <a href="#contact" className="btn btn-outline" ref={btnRef}>Let's Talk</a>
       </div>
     </nav>
