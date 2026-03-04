@@ -4,8 +4,8 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
 
-// Components
 import CustomCursor from './components/CustomCursor';
+import GridBackground from './components/GridBackground';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Clients from './components/Clients';
@@ -48,6 +48,7 @@ function App() {
   return (
     <>
       <CustomCursor />
+      <GridBackground />
       <div className="film-grain"></div>
       <Navbar />
 
