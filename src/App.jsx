@@ -49,7 +49,6 @@ function App() {
     <>
       <CustomCursor />
       <GridBackground />
-      <div className="film-grain"></div>
       <Navbar />
 
       <main id="smooth-wrapper">

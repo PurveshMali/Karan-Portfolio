@@ -8,13 +8,13 @@ const BehindTheLens = () => {
       </div>
       <div className="bts-gallery">
         <div className="bts-item">
-          <img src="https://images.unsplash.com/photo-1590130838116-2fd1ff3b6842?auto=format&fit=crop&q=80&w=800" alt="BTS Shooting Car" loading="lazy" />
+          <img src="public/images/bts_edit_bay_1772605940388.png" alt="BTS Shooting Car" loading="lazy" />
         </div>
         <div className="bts-item">
-          <img src="https://images.unsplash.com/photo-1574717024453-354056badcab?auto=format&fit=crop&q=80&w=800" alt="BTS Edit Bay" loading="lazy" />
+          <img src="public/images/bts_fpv_drone_1772605956169.png" alt="BTS Edit Bay" loading="lazy" />
         </div>
         <div className="bts-item">
-          <img src="https://images.unsplash.com/photo-1605371924599-2d0365da1ae0?auto=format&fit=crop&q=80&w=800" alt="BTS FPV Drone" loading="lazy" />
+          <img src="public/images/bts_shooting_car_1772605918501.png" alt="BTS FPV Drone" loading="lazy" />
         </div>
       </div>
     </section>
