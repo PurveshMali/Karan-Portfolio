@@ -10,9 +10,10 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Clients from './components/Clients';
 import Impact from './components/Impact';
-import Marquee from './components/Marquee';
 import FeaturedWork from './components/FeaturedWork';
 import BehindTheLens from './components/BehindTheLens';
+import Blog from './components/Blog';
+import Community from './components/Community';
 import Expertise from './components/Expertise';
 import GearArsenal from './components/GearArsenal';
 import WhyMe from './components/WhyMe';
@@ -56,9 +57,10 @@ function App() {
           <Hero />
           <Clients />
           <Impact />
-          {/* <Marquee /> */}
           <FeaturedWork />
           <BehindTheLens />
+          <Blog />
+          <Community />
           <Expertise />
           <GearArsenal />
           <WhyMe />
